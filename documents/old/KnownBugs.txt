@@ -1,0 +1,63 @@
+-------------KNOWN BUGS:
+
+* conversation key error: if player initially messes up selecting a or b in
+their conversation options, they must leave the room to restart the conversation
+with the NPC
+
+* no stop player from going back
+
+* no inventory drawbacks between morphing player types (e.g. lioness can hold 2 items)
+
+* bark/roar/squawk does nothing useful towards game
+
+* CHECKSTYLE: complexItem -  Got an exception - expecting EOG, found '}'
+
+-------------FEATURES TO IMPLEMENT:
+* time constraints (must play first and walkthrough)
+* add/lost points (" " ")
+
+
+
+* WIN DETERMINE CREATURE.
+
+-------------PLAYER AESTHETICS:
+
+* * clarification between NPC's (cubs, zebras) maybe diff names?
+* " 	"	" (tuna, school of fish, herd)
+* make names easier (e.g. blue-billed bird >>>> tucan? + sign - savanna)
+
+* player needs more information to know what to do in beginning of game
+	-encourage spelling!
+	-background - point of game
+	-explain help command to list commands
+	-explain mission plots 
+	-maybe more NPC's?
+	-descriptions for items
+	
+	* "\n" after each string to help reader visibility
+
+* make descriptions more independent of their creatures/items
+	
+* "help" command more than 80 char.
+
+-------------PROGRAMMER AESTHETICS:
+* check out all //'s
+* check out all method comments and rearrange
+* remove unnecessary stuff + run checkstyle
+
+-------------DESIGN DOC:
+
+- SAVANNA MISSION: one cub must be fed a correct item
+- SEA MISSION: shark must give seashell to tuna or pelican must peck the button or lever
+- CITY MISSION: girl must be given purse
+
+-------------EXTRA FEATURES TO IMPLEMENT:
+* Easter egg item that will give you ___ points and you end the game as a Spirit King
+* more items (unmovable, bonus) /npc's
+* simplify missionAccomplished()
+* battle mode
+* add convo's to certain NPC's
+* SEA: edit so you cant be shark above water and pelican under water - isUnderwater()? 
+* 'morph into' instead of morph ____
+* code simplification with loops
+* purpose for take/steal - bonus items?
