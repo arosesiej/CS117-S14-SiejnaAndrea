@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=theName\ theDescription\ theWeight
+comment0.target=Item(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ item\ class\r\n\ \r\n\ @param\ theName\ -\ the\ name\ of\ the\ item\r\n\ @param\ theDescription\ -\ the\ description\ of\ the\ item\r\n\ @param\ theWeight\ -\ the\ weight\ of\ the\ item\r\n
+comment1.params=theDescription
+comment1.target=void\ setDescription(java.lang.String)
+comment1.text=\r\n\ Mutator\ method\ for\ the\ description\ field\r\n\ \r\n\ @param\ theDescription\ -\ the\ description\ of\ the\ item\r\n
+comment2.params=theWeight
+comment2.target=void\ setWeight(int)
+comment2.text=\r\n\ Mutator\ method\ for\ the\ weight\ field\r\n\ \r\n\ @param\ theWeight\ -\ the\ weight\ of\ the\ item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Accessor\ method\ for\ the\ name\ field\r\n\ @return\ name\ -\ the\ name\ of\ the\ item\r\n
+comment4.params=
+comment4.target=java.lang.String\ getDescription()
+comment4.text=\r\n\ Accessor\ method\ for\ the\ description\ field\r\n\ @return\ description\ -\ the\ description\ of\ the\ item\r\n
+comment5.params=
+comment5.target=int\ getWeight()
+comment5.text=\r\n\ Accessor\ method\ for\ the\ weight\ field\r\n\ @return\ weight\ -\ the\ weight\ of\ the\ item\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ a\ string\ representing\ the\ item\r\n\ @return\ -\ a\ string\ representing\ the\ item\r\n
+numComments=7

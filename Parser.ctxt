@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Parser()
+comment0.text=\r\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\r\n
+comment1.params=
+comment1.target=Command\ getCommand()
+comment1.text=\r\n\ Returns\ the\ next\ command\ from\ the\ user.\r\n\ @return\ The\ next\ command\ from\ the\ user.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getUserResponse()
+comment2.text=\r\n\ Used\ only\ for\ initial\ prompt\ for\ character\ type\r\n\ (e.g.\ first\ time\ arrive\ in\ clearing,\ buoy,\ apartment\r\n\ \r\n\ @return\ word1\ -\ returns\ first\ word\r\n
+comment3.params=
+comment3.target=java.lang.String\ getResponse()
+comment3.text=\r\n\ Return\ the\ response\ to\ a\ question\ in\ lower\ case.\r\n\ \r\n\ @return\ The\ response\ typed\ in\ by\ the\ user.\r\n
+comment4.params=changeCase
+comment4.target=java.lang.String\ getResponse(boolean)
+comment4.text=\r\n\ Return\ the\ response\ to\ a\ question.\r\n\ \r\n\ @param\ changeCase\ Whether\ the\ input\ should\ be\ converted\ \r\n\ to\ all\ lower\ case\ characters.\r\n\ \r\n\ @return\ The\ response\ typed\ in\ by\ the\ user.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getCommandString()
+comment5.text=\r\n\ Return\ a\ list\ of\ the\ available\ commands.\r\n\ \r\n\ @return\ The\ list\ of\ available\ commands.\r\n
+numComments=6

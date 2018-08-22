@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=theDestination
+comment0.target=Door(Room)
+comment0.text=\r\n\ Constructor\ for\ the\ Door\ class\r\n\ @param\ theDestination\ The\ room\ this\ door\ leads\ to\r\n
+comment1.params=
+comment1.target=Room\ getDestination()
+comment1.text=\r\n\ A\ getter\ for\ the\ room\ this\ door\ leads\ to\r\n\ @return\ The\ room\ this\ door\ leads\ to\r\n
+comment2.params=
+comment2.target=Item\ getKey()
+comment2.text=\r\n\ An\ accessor\ method\ for\ the\ 'key'\ item\r\n\ @return\ The\ key\ for\ this\ room\r\n
+comment3.params=
+comment3.target=boolean\ isLocked()
+comment3.text=\r\n\ A\ getter\ for\ whether\ this\ door\ is\ locked.\r\n\ \r\n\ @return\ Whether\ this\ door\ is\ locked\ \r\n
+comment4.params=isLocked
+comment4.target=void\ setLocked(boolean)
+comment4.text=\r\n\ A\ setter\ for\ whether\ this\ door\ is\ locked.\r\n\ \r\n\ @param\ isLocked\ Whether\ this\ door\ is\ locked.\r\n
+comment5.params=
+comment5.target=void\ unlock()
+comment5.text=\r\n\ A\ method\ that\ unlocks\ a\ locked\ door.\r\n
+numComments=6

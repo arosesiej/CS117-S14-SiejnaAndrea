@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=theName
+comment0.target=CommandEnum(java.lang.String)
+comment0.text=\ \r\n\ Constructor\ \r\n\ @param\ theName\ -\ the\ inputted\ name\ for\ the\ command\ word\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\ \r\n\ Override\ toString\ to\ return\ the\ full\ name\ associated\ with\ the\ command.\r\n\ @return\ name\ -\ the\ name\ of\ the\ command\ word\ \r\n
+numComments=2

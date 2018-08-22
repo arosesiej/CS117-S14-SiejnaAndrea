@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theName\ theRoom\ theTriggerWord\ theItem
+comment0.target=Monster(java.lang.String,\ Room,\ java.lang.String,\ Item)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Monster\r\n\ \r\n\ @param\ theName\ -\ the\ name\ of\ the\ character\r\n\ @param\ theRoom\ -\ the\ room\ of\ the\ character's\ current\ location\r\n\ @param\ theTriggerWord\ -\ the\ key\ that\ will\ start\ the\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ character's\ conversation\r\n\ @param\ theItem\ -\ the\ special\ item\ the\ character\ needs/uses\r\n\ \r\n
+comment1.params=
+comment1.target=int\ getHealth()
+comment1.text=\r\n\ Get\ the\ monster's\ health\r\n\ \r\n\ \r\n\ @return\ -\ the\ monster's\ health\r\n
+comment2.params=
+comment2.target=int\ attackString()
+comment2.text=\r\n\ How\ the\ character\ responds\ to\ getting\ attacked\r\n\ \r\n\ @return\ deathNumber\ -\ 1\ for\ Monster\ killed,\ 0\ for\ not\r\n
+numComments=3

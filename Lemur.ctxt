@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=theCurrentRoom\ maxSize
+comment0.target=Lemur(Room,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Lemur\r\n\ \r\n\ @param\ theCurrentRoom\ -\ the\ current\ room\ of\ the\ Lemur\r\n\ @param\ maxSize\ -\ the\ maximum\ size\ of\ the\ inventory\r\n
+numComments=1

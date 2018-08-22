@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=theCurrentRoom\ maxSize
+comment0.target=Human(Room,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Human\r\n\ \r\n\ @param\ theCurrentRoom\ -\ the\ current\ room\ of\ the\ Human\r\n\ @param\ maxSize\ -\ the\ maximum\ size\ of\ the\ inventory\r\n
+numComments=1

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=firstWord
+comment0.target=Command(CommandEnum)
+comment0.text=\r\n\ Create\ a\ command\ object.\ First\ is\ supplied.\ The\ second\ word\ is\ assumed\ to\r\n\ be\ null.\r\n\ \r\n\ @param\ firstWord\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ first\ word\ of\ the\ command.\ Null\ if\ the\ command\ was\ not\r\n\ \ \ \ \ \ \ \ \ \ \ \ recognized.\r\n
+comment1.params=firstWord\ theRestOfLine
+comment1.target=Command(CommandEnum,\ java.util.ArrayList)
+comment1.text=\r\n\ Create\ a\ command\ object.\ First\ and\ second\ word\ must\ be\ supplied,\ but\r\n\ either\ one\ (or\ both)\ can\ be\ null.\r\n\ \r\n\ @param\ firstWord\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ first\ word\ of\ the\ command.\ Null\ if\ the\ command\ was\ not\r\n\ \ \ \ \ \ \ \ \ \ \ \ recognized.\r\n\ @param\ theRestOfLine\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ rest\ of\ the\ command.\r\n
+comment2.params=
+comment2.target=CommandEnum\ getCommandWord()
+comment2.text=\r\n\ Return\ the\ command\ word\ (the\ first\ word)\ of\ this\ command.\ If\ the\ command\r\n\ was\ not\ understood,\ the\ result\ is\ null.\r\n\ \r\n\ @return\ The\ command\ word.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getRestOfLine()
+comment3.text=\r\n\ Returns\ the\ second\ word\ of\ this\ command,\ if\ it\ exists.\r\n\ \r\n\ @return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\r\n\ \ \ \ \ \ \ \ \ second\ word.\r\n
+comment4.params=
+comment4.target=boolean\ isUnknown()
+comment4.text=\r\n\ Returns\ if\ this\ command\ was\ not\ understood.\r\n\ \r\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\r\n
+comment5.params=
+comment5.target=boolean\ hasSecondWord()
+comment5.text=\r\n\ Returns\ if\ this\ command\ has\ a\ second\ word.\r\n\ \r\n\ @return\ true\ if\ the\ command\ has\ a\ second\ word.\r\n
+comment6.params=index
+comment6.target=java.lang.String\ getWord(int)
+comment6.text=\r\n\ Returns\ the\ word\ at\ the\ requested\ index\ in\ the\ command.\r\n\ \r\n\ @param\ index\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ index\ of\ word\ in\ the\ command\ that\ is\ being\ requested.\r\n\ \r\n\ @return\ A\ particular\ word\ in\ the\ command.\ Returns\ null\ if\ there\ is\ no\r\n\ \ \ \ \ \ \ \ \ word\ corresponding\ to\ that\ requested\ index.\r\n\ \r\n
+numComments=7

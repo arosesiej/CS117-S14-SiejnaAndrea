@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=theName\ theRoom\ theTriggerWord\ theItem
+comment0.target=EndGameCharacter(java.lang.String,\ Room,\ java.lang.String,\ Item)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ EndGameCharacter\r\n\ \r\n\ @param\ theName\ -\ the\ name\ of\ the\ character\r\n\ @param\ theRoom\ -\ the\ room\ of\ the\ character's\ current\ location\r\n\ @param\ theTriggerWord\ -\ the\ key\ that\ will\ start\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ character's\ conversation\r\n\ @param\ theItem\ -\ the\ special\ item\ the\ character\ needs/uses\r\n\ \r\n
+comment1.params=
+comment1.target=int\ attackString()
+comment1.text=\r\n\ How\ the\ character\ responds\ to\ getting\ attacked\r\n\ \r\n\ \ @return\ 0\ -\ for\ Monster\ class\ purposes\r\n
+numComments=2

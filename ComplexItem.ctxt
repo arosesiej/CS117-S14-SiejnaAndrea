@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=theName\ theDescription\ theWeight
+comment0.target=ComplexItem(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ ComplexItem\ class\r\n\ \r\n\ @param\ theName\ -\ the\ name\ of\ the\ complex\ item\r\n\ @param\ theDescription\ -\ the\ description\ of\ the\ complex\ item\r\n\ @param\ theWeight\ -\ the\ weight\ of\ the\ complex\ item\r\n
+comment1.params=item
+comment1.target=void\ addItem(Item)
+comment1.text=\r\n\ Method\ that\ adds\ an\ item\ to\ the\ complex\ item\r\n
+comment2.params=
+comment2.target=java.lang.String[]\ getItemNames()
+comment2.text=\r\n\ Returns\ an\ array\ of\ names\ of\ the\ items\ that\ are\ contained\ in\ the\ complex\ item\r\n\ \r\n
+comment3.params=name
+comment3.target=Item\ removeItem(java.lang.String)
+comment3.text=\r\n\ Removes\ the\ named\ item\ from\ the\ complex\ item\r\n\r\n
+comment4.params=theItem
+comment4.target=Item\ getItem(java.lang.String)
+comment4.text=\r\n\ Returns\ the\ item\ within\ the\ complex\ item\r\n\ \r\n\ @param\ theItem\ -\ the\ item\ to\ be\ searched\ for\r\n\ @return\ -\ the\ item\ to\ be\ retrieved\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representing\ the\ item\r\n\ @return\ -\ a\ string\ representing\ the\ item\r\n
+numComments=6

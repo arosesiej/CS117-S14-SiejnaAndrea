@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CommandWords()
+comment0.text=\r\n\ Constructor\ -\ initialize\ the\ command\ words\ in\ the\ HashMap.\r\n
+comment1.params=aString
+comment1.target=boolean\ isCommand(java.lang.String)
+comment1.text=\r\n\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\r\n\ \r\n\ @param\ aString\ The\ string\ to\ determine\ whether\ it\ is\ a\ valid\ command.\r\n\ @return\ true\ if\ a\ given\ string\ is\ a\ valid\ command,\ false\ if\ it\ isn't.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandString()
+comment2.text=\r\n\ Return\ a\ list\ of\ the\ available\ commands,\ of\ the\ form\:\r\n\ \ \ \ \ \ Your\ command\ words\ are\:\r\n\ \ \ \ \ \ \ \ \ \ look\ \ \ \ go\ \ \ \ \ \ quit\ \ \ \ help\r\n\ \ \ \ \ \ \ \ \ \ \r\n@return\ A\ string\ containing\ the\ list\ of\ available\ commands.\r\n
+comment3.params=aString
+comment3.target=CommandEnum\ getCommand(java.lang.String)
+comment3.text=\r\n\ Convert\ a\ string\ into\ a\ CommandEnum\ object.\r\n\ @param\ aString\ The\ string\ containing\ the\ command\ word.\r\n\ @return\ The\ CommandEnum\ object\ representing\ the\ command.\r\n
+numComments=4
